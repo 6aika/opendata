@@ -1,0 +1,53 @@
+{
+  "author": "City of Helsinki Public Works Department",
+  "description": "Parking tickets of Helsinki Region 2014 - present",
+  "homepage": "http://www.hri.fi/fi/dataset/pysakointivirheet-helsingissa",
+  "license": "CC BY 4.0",
+  "name": "parking_tickets",
+  "resources": [
+    {
+      "bytes": 44592821,
+      "format": "CSV",
+      "mediatype": "text/csv",
+      "name": "data",
+      "path": "data.csv",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Month of incident",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Year of incident",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "Address",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "State of ticket payment",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Incident class / Incident chief reason",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Incident's scribe",
+            "type": "string"
+          }
+        ]
+      },
+      "title": "Data"
+    }
+  ],
+  "title": "Parking Tickets",
+  "version": "2016-01-25"
+}
